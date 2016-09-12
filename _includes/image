@@ -1,0 +1,1 @@
+<a href="{{site.baseurl}}{{p.url}}" class="btn btn-default wfixed">{% if (p.thumb) %}{% assign x = p.thumb|slice:0,4 %}{% if x == "http" %}<img src="{{p.thumb}}" alt="{{p.title}}" class="img-responsive"/>{% else %}<img src="{{site.asseturl}}/img/{{p.thumb}}.jpg" class="img-responsive" alt="{{p.title}}"/>{% endif %}{% else %}{{p.title}}{% endif %}</a>

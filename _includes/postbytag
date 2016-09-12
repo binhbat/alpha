@@ -1,0 +1,1 @@
+<div class="row text-center"><div class="bg-primary">{{include.key}}</div>{% for p in site.tags[{{include.key}}] %}{% include image %}{% endfor %}</div>

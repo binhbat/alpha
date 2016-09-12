@@ -1,0 +1,11 @@
+<script src="//content.jwplatform.com/libraries/V6NfEzT7.js"></script>
+<div id="myPlayer">&nbsp;</div>
+<script>
+jwplayer('myPlayer').setup({aspectratio:"16:9",width:"100%",
+image:"{{page.thumb}}",
+sources:[{
+file:"http://porn720.net/video/{{include.key}}/360p.mp4",label:"360p"},{
+file:"http://porn720.net/video/{{include.key}}/480p.mp4",label:"480p"},{
+file:"http://porn720.net/video/{{include.key}}/720p.mp4",label:"720p"
+}],});
+</script>

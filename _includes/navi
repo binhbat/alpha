@@ -1,0 +1,10 @@
+<div class="row bg-success">
+<div class="btn-group pull-right">
+<a class="btn btn-warning" href="{{site.baseurl}}{{page.previous.url}}"><i class="glyphicon glyphicon-backward"></i></a>
+<button type="button" class="btn btn-warning" onclick="location.reload();"><i class="glyphicon glyphicon-refresh"></i></button>
+<a class="btn btn-warning" href="{{site.baseurl}}{{page.next.url}}"><i class="glyphicon glyphicon-forward"></i></a>
+</div>
+<a href="/" class="btn btn-danger"><i class="glyphicon glyphicon-globe"></i></a>
+<a href="{{site.baseurl}}" class="btn btn-info"><i class="glyphicon glyphicon-home"></i></a>
+<b>{{page.title}}</b>
+</div>
