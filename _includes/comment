@@ -31,6 +31,7 @@ $(function() {
 });
 </script>
 <div class="comments"></div>
+<h3>Hãy bình luận có văn hoá nhé</h3>
 <form id="comment">
 <input id="name" type="text" class="form-control" placeholder="Name">
 <input id="email" type="text" class="form-control" placeholder="Email">
