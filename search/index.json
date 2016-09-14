@@ -3,12 +3,12 @@ layout: null
 ---
 {% assign first = true %}
 [{% for post in site.posts %}{% if post.title != null and post.title != empty %}{% unless first %},{% endunless %}
-	{
+{
 	"title": {{post.title | jsonify}},
 	"content": {{post.content | markdownify | strip_html | jsonify}},
 	"link": "{{ site.baseurl }}{{ post.url }}",
 	"date": "{{ post.date }}",
 	"excerpt": "{{ post.snippet }}",
 	"search_omit": true
-	}{% assign first = false %}{% endif %}{% endfor %}
+}{% assign first = false %}{% endif %}{% endfor %}
 ]
